@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #f8f8f8;
+}
+
+header {
+    background-color: #111;
+    padding: 0px 0px;
+    border-bottom: 2px solid #444;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    float: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #b8b8b8;
+}
+
+.hero {
+    background-image: url('../imagens/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #b8b8b8;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #8c8c8c;
+}
+
+.features {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.features .feature {
+    width: 45%;
+    display: inline-block;
+    margin: 0 2.5%;
+    vertical-align: top;
+}
+
+.features .feature img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.features .feature h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+#servico1{
+    width: 100px;
+}
+#servico2{
+    width: 100px;
+}
